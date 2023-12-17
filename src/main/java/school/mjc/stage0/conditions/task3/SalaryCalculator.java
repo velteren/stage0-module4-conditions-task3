@@ -7,11 +7,13 @@ public class SalaryCalculator {
             System.out.println("wrong input!");
         } else if (salary <= 10000) {
             result *= 0.85;
+            System.out.println(result);
         } else if (salary <= 20000) {
             result *= 0.82;
+            System.out.println(result);
         } else {
             result *= 0.8;
+            System.out.println(result);
         }
-        System.out.println(result);
     }
 }
